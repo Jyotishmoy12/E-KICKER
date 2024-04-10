@@ -1,5 +1,51 @@
-.containerStyles{
-   width: 500px;
-   height:280px ;
-   margin:0 auto
+.containerStyles {
+  width: 500px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.image-slider {
+  height: 100%;
+  position: relative;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.leftArrowStyles,
+.rightArrowStyles {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 45px;
+  color: #272525;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.leftArrowStyles {
+  left: 0;
+}
+
+.rightArrowStyles {
+  right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .leftArrowStyles {
+    left: 0;
+  }
+
+  .rightArrowStyles {
+    right: 0;
+  }
+}
+
+.headerStyle{
+  text-align: center;
 }

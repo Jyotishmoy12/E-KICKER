@@ -10,7 +10,7 @@ const Slider = () => {
     ]
   return (
     <div>
-    <h1>Products</h1>
+    <h1 className='headerStyle'>Products</h1>
     <div className="containerStyles">
     <ImageSlider slides={slides}/>
     </div>
